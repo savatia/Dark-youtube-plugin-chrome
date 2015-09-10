@@ -928,7 +928,7 @@ body .yt-uix-button-subscribed-branded.hover-enabled:hover .unsubscribe-hh-label
 }
 
 .channel-header-profile-image{
-	background-color: #2d2d2d; /* Changes the profile image background to grey */
+	background-color: #2d2d2d !important; /* Changes the profile image background to grey */
 }
 
 .welcome.c4-spotlight-module-component
