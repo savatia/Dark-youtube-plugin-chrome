@@ -33,7 +33,7 @@
 }
 
 /* Disable filter when activated */
-.like-button-renderer-like-button.yt-uix-button:active:before, .like-button-renderer-like-button.yt-uix-button.yt-uix-button-toggled:before
+.like-button-renderer-like-button.yt-uix-button:active:before, .like-button-renderer-like-button.yt-uix-button.yt-uix-button-toggled:before, .yt-uix-button .yt-uix-button-arrow
 {
 	-webkit-filter: grayscale(0) invert(0);
 }
@@ -925,6 +925,10 @@ body .yt-uix-button-subscribed-branded.hover-enabled:hover .unsubscribe-hh-label
 .channel-header .branded-page-header-title .branded-page-header-title-link
 {
     color: #fff !important;
+}
+
+.channel-header-profile-image{
+	background-color: #2d2d2d; /* Changes the profile image background to grey */
 }
 
 .welcome.c4-spotlight-module-component
